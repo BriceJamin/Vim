@@ -11,6 +11,4 @@ set background=dark
 set number
 
 " Tabulations
-set tabstop=2
-set shiftwidth=2
-set expandtab "set et or switch off with set noet
+set tabstop=2 shiftwidth=2 expandtab "set et or switch off with set noet
