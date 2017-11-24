@@ -19,3 +19,6 @@ set relativenumber
 " Permet to use tabfind
 "  and search in all subdirectory
 set path=.,,**
+
+" Cursor line highlight
+set cursorline
