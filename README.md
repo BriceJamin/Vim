@@ -6,13 +6,11 @@ Seem since Vim 8.0, [vim has his own way to load unload plugin](https://gist.git
 
 ### Replicating the repository on a machine
 - Clone the repository (_recursively_ to clone plugins as well):
-
     ```
     git clone --recursive https://github.com/BriceJamin/Vim.git ~/.vim
     ```
     
-- Symlink `.vim` and `.vimrc`:
-
+- Symlink `.vimrc`:
     ```
     ln -s ~/.vim/vimrc ~/.vimrc
     ```
