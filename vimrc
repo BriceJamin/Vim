@@ -8,8 +8,8 @@ runtime! config/**/*.vim
 set t_BE=
 
 " Initialisation de pathogen
-call pathogen#infect()
-call pathogen#helptags()
+execute pathogen#infect()
+"call pathogen#helptags() "Not usefull, see ref. : https://github.com/tpope/vim-pathogen
 
 " Uncomment the following to have Vim jump to the last position when
 " reopening a file
