@@ -4,6 +4,7 @@ runtime! config/**/*.vim
 
 " To resolve copy paste error in debian terminal
 "  after upgrade to vim 8
+"  Ref. : https://unix.stackexchange.com/a/400717
 set t_BE=
 
 " Initialisation de pathogen
