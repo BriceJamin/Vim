@@ -2,6 +2,10 @@
 set nocompatible
 runtime! config/**/*.vim
 
+" To resolve copy paste error in debian terminal
+"  after upgrade to vim 8
+set t_BE=
+
 " Initialisation de pathogen
 call pathogen#infect()
 call pathogen#helptags()
