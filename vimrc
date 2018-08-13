@@ -25,5 +25,10 @@ set relativenumber
 "  and search in all subdirectory
 set path=./**
 
+" Add bottom menu
+set wildmenu
+" Add tab completion in bottom menu
+set wildmode=list:longest,full
+
 " Cursor line highlight
 set cursorline
