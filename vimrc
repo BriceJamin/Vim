@@ -23,7 +23,7 @@ set relativenumber
 " Onglets (Tabs)
 " Permet to use tabfind
 "  and search in all subdirectory
-set path=.,,**
+set path=./**
 
 " Cursor line highlight
 set cursorline
