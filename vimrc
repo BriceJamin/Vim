@@ -11,8 +11,7 @@ set t_BE=
 execute pathogen#infect()
 "call pathogen#helptags() "Not usefull, see ref. : https://github.com/tpope/vim-pathogen
 
-" Uncomment the following to have Vim jump to the last position when
-" reopening a file
+" Jump to the last position when reopening a file
 if has("autocmd")
   au BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g'\"" | endif
 endif
@@ -23,11 +22,13 @@ set relativenumber
 " Onglets (Tabs)
 " Permet to use tabfind
 "  and search in all subdirectory
+"  see ref : http://vim.wikia.com/wiki/Project_browsing_using_find
 set path=./**
 
 " Add bottom menu
+" see ref : http://vim.wikia.com/wiki/Great_wildmode/wildmenu_and_console_mouse
 set wildmenu
-" Add tab completion in bottom menu
+" and add tab completion in bottom menu
 set wildmode=list:longest,full
 
 " Cursor line highlight
