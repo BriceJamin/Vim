@@ -23,7 +23,7 @@ set relativenumber
 " Permet to use tabfind
 "  and search in all subdirectory
 "  see ref : http://vim.wikia.com/wiki/Project_browsing_using_find
-set path=./**
+set path=$PWD/**
 
 " Add bottom menu
 " see ref : http://vim.wikia.com/wiki/Great_wildmode/wildmenu_and_console_mouse
